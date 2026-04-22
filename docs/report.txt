@@ -1,1 +1,17 @@
+DSL Compiler Project
 
+Architecture:
+Input → Lexer → Parser → Output
+
+Modules:
+Lexer:
+Breaks input into tokens like identifiers, numbers, operators.
+
+Parser:
+Checks syntax using grammar rules.
+
+Output:
+Displays parsing success message.
+
+Conclusion:
+Basic compiler pipeline implemented successfully.
